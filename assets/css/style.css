@@ -238,7 +238,7 @@ footer {
 }
 
 
-/* media query */
+/* media querys */
 
 /* Media query to add styles for tablets and screen size of threshold 1200px */
 
@@ -270,5 +270,19 @@ footer {
 
     hr {
     display: none;
+    }
+}
+
+
+/* Media query to add styles for tablets and screen size of threshold 1200px */
+
+@media screen and (max-width: 950px) {
+
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
     }
 }
